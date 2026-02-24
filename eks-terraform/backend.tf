@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "ebinejar_s3_2"
+    bucket = "ebinejar-s3-2"
     key    = "k8/terraform.tfstate"
     region = "us-east-1"
   }
