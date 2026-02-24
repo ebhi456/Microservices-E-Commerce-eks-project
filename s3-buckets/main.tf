@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "ebinejar_s3_1"
+  bucket = "ebinejar-s3-1"
 
   tags = {
-    Name        = "ebinejar_s3_1"
+    Name        = "ebinejar-s3-1"
     Environment = "dev"
   }
 }
@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "ebinejar_s3_2"
+  bucket = "ebinejar-s3-2"
 
   tags = {
-    Name        = "ebinejar_s3_2"
+    Name        = "ebinejar-s3-2"
     Environment = "dev"
   }
 }
